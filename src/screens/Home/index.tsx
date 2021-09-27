@@ -12,9 +12,6 @@ import { CategorySelect } from "../../components/CategorySelect"
 import { styles } from './styles'
 import { useNavigation } from "@react-navigation/native";
 
-
-
-
 export function Home() {
   const [category, setCategory] = useState('');
 
@@ -56,11 +53,16 @@ export function Home() {
     navigation.navigate('AppointmentDetails');
   }
 
+  function handleAppointmentCreate() {
+    navigation.navigate('AppointmentCreate');
+  }
+
+
   return (
     <Background>
       <View style={styles.header}>
         <Profile />
-        <ButtonAdd></ButtonAdd>
+        <ButtonAdd onPress={handleAppointmentCreate} />
       </View>
       <CategorySelect
         categorySelected={category}

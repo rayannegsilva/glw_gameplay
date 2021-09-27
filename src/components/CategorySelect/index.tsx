@@ -12,8 +12,6 @@ type Props = {
     hasCheckBox?: boolean;
 }
 
-
-
 export function CategorySelect({
     categorySelected,
     setCategory,

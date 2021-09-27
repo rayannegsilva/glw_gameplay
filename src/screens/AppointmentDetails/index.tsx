@@ -14,11 +14,6 @@ import { ButtonIcon } from "../../components/ButtonIcon";
 import { Members } from "../../components/Members";
 import { Header } from "../../components/Header";
 
-
-
-
-
-
 export function AppointmentDetails() {
   const members = [
     {

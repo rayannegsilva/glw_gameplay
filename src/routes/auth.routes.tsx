@@ -6,6 +6,7 @@ import { theme } from '../global/styles/theme';
 import { Home } from '../screens/Home';
 import { SignIn } from '../screens/Signin';
 import { AppointmentDetails } from '../screens/AppointmentDetails';
+import { AppointmentCreate } from '../screens/AppointmentCreate';
 
 
 
@@ -33,6 +34,10 @@ export function AuthRoutes() {
       <Screen
         name="AppointmentDetails"
         component={AppointmentDetails}
+      />
+      <Screen
+        name="AppointmentCreate"
+        component={AppointmentCreate}
       />
     </Navigator >
 
