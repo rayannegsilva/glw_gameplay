@@ -11,7 +11,7 @@ sua conta do Discord, para o agendamento.
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## Como rodar
+## :running_man: Como rodar
 
 Antes de mais nada, é necessário ter o expo e o node instalados na sua máquina. Você pode adquirí-los aqui, caso não tenha:
 - [Node](https://nodejs.org/en/)
