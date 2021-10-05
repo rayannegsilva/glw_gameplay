@@ -21,10 +21,10 @@ Pode ser que seja necessário baixar o Typescript também, [clique aqui](https:/
 
 É preciso cadastrar o aplicativo no [Discord Developers](https://discord.com/developers/applications) para ter acesso ao serviço de autenticação do mesmo.
 
-Feita a clonagem, o GamePlay terá um arquivo chamado _.env.example_. É nele que você colocorá suas rotas adquiridas no Discord!
+Feita a clonagem, o GamePlay terá um arquivo chamado _.env.example_. Você precisa apagar o _.example_ e por suas rotas adquiridas no Discord!
 
  ```cl
-REDIRECT_URI=
+REDIRECT_URI= 
 SCOPE=
 RESPONSE_TYPE=
 CLIENT_ID=
