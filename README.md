@@ -1,6 +1,6 @@
 # :iphone: Sobre o GamePlay
 
-O Aplicativo GamePlay fez parte do Next Level Week da Rocketseat, sendo a trilha React Native. Sua ideia é de auxiliar na organização de jogatinas, utilizando o Discord
+O Aplicativo GamePlay fez parte do Next Level Week da Rocketseat, sendo a trilha React Native. Sua ideia é de auxiliar na organização de jogatinas, utilizando
 sua conta do Discord, para o agendamento.
 
 
